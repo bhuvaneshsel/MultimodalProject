@@ -1,0 +1,138 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    font-family: Arial, Cochin, Georgia, Times, 'Times New Roman', serif;
+    ;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+    color: blue;
+}
+
+.header {
+    height: 75px;
+    background-color: rgb(137, 109, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.images img {
+    height: 300px;
+    grid-column: 1/10;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.images {
+    flex: 1.2;
+}
+
+.body1 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.food-insecurity {
+    font-family: Arial, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    border-radius: 10px;
+    flex: 1;
+    padding: 20px;
+}
+
+.food-insecurity h1 {
+    font-family: Arial, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.food-insecurity p {
+    font-family: Arial, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.body2 {
+    height: 650px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.second-harvest,
+.my-work {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-harvest h1,
+.my-work h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.second-harvest p,
+.my-work p {
+    font-size: 25px;
+    padding-right: 150px;
+    min-width: 600px;
+}
+
+.second-harvest img {
+    height: 350px;
+}
+
+.my-work p {
+    width: 750px;
+}
+
+.impact {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.impact h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.impact p {
+    font-size: 30px;
+    text-align: center;
+    width: 800px
+}
+
+.footer {
+    height: 75px;
+    background-color: rgb(137, 109, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.second-harvest a {
+    color: rgb(174, 152, 255)
+}
